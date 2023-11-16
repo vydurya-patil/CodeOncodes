@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(10, 10, 12);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(16, 21, 125);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 8px;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.delete-button {
+    background-color: black;
+    color:whitesmoke;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.completed {
+    text-decoration: line-through;
+}
